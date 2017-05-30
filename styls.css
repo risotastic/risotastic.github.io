@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Courier;
+}
+.wraper {
+    width: 90%;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    margin-top: 30px;
+    float: center;
+    position: relative;
+/*    top: 50%;*/
+    left: 50%;
+    margin-left:-170px;
+/*    margin-bottom:-50px;*/
+}
+
+/****** Navigation styling *******/
+.iso-nav {
+    text-align: center;
+}
+ul  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding: 10px 10px;
+/*    border: 1px solid #5274a9;*/
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+ul  li:hover {
+/*    background: #5274a9;*/
+    color: #666;
+}
+/****** Main portfolio styling ********/
+
+.main-iso {
+    width: 1000px;
+    float: center;
+    position: absolute;
+/*    top: 50%;
+    left: 50%;*/
+    margin-left:100px;
+    margin-bottom:100px;
+
+}
+
+/*img{
+    max-width:100%;
+    max-height:100%;
+    width: 400px;
+    height: 560px;
+
+}*/
+    
+.main-iso .item{
+    width: 303px;
+    float: left;
+    margin: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+#pink{
+    color: "#ff10b8";
+}
+
+.main-iso .item img{
+    width: 303px;
+
+}
+
+
+.active {
+/*    background: #5274a9;*/
+    text-decoration: underline;
+    color: #666;
+}
+
+/*#item {
+    width: 80%;
+    height: 80%;
+}*/
+
